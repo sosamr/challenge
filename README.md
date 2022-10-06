@@ -10,17 +10,76 @@ The 'Wrap text' function should:
 
 ## Running output 
 ```
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [4]
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [2]
+12
+T-
+h-
+is
+is
+e-
+x-
+t-
+r-
+e-
+m-
+e-
+ly
+s-
+i-
+m-
+p-
+le
+t-
+e-
+x-
+t.
+J-
+u-
+st
+f-
+or
+a-
+u-
+t-
+o-
+m-
+a-
+t-
+i-
+c-
+a-
+l-
+ly
+t-
+e-
+s-
+t-
+i-
+ng
+p-
+u-
+r-
+p-
+o-
+s-
+e-
+s.
+
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [4]
 1234
 This
-is
+is 
 ext-
 rem-
-ely
+ely 
 sim-
-ple
-text
-for
+ple 
+tex-
+t.
+Just
+for 
 aut-
 oma-
 tic-
@@ -29,62 +88,85 @@ tes-
 ting
 pur-
 pos-
-es.
+es. 
 
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [8]
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [8]
 12345678
-This is
+This is 
 extreme-
-ly
-simple
-text
-for aut-
-omatica-
-lly
-testing
+ly 
+simple 
+text.
+Just for
+automat-
+ically 
+testing 
 purpose-
-s.
-
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [12]
+s.   
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [12]
 123456789012
-This is
-extremely
-simple
-text for au-
-tomatically
-testing
-purposes.
-
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [16]
+This is 
+extremely 
+simple 
+text.
+Just for au-
+tomatically 
+testing 
+purposes.   
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [16]
 1234567890123456
-This is
-extremely
-simple
-text for
-automatically
-testing
-purposes.
-
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [24]
+This is 
+extremely simple
+text.
+Just for 
+automatically 
+testing 
+purposes.   
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [24]
 123456789012345678901234
-This is extremely
-simple          text
-for automatically
-testing purposes.
-
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [32]
-12345678901234567890123456789012
 This is extremely simple
-text for automatically testing
-purposes.
-
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [40]
+text.
+Just for automatically 
+testing purposes.   
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [32]
+12345678901234567890123456789012
+This is extremely simple 
+text.
+Just for automatically testing 
+purposes.   
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [40]
 1234567890123456789012345678901234567890
-This is extremely simple          text
-for automatically testing purposes.
+This is extremely simple          text.
+Just for automatically testing purposes.
 
-Trying: 'This is extremely simple          text for automatically testing purposes.   ' [100]
+Trying: 'This is extremely simple          text.
+Just for automatically testing purposes.   ' [100]
 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
-This is extremely simple          text for automatically testing purposes.
+This is extremely simple          text.
+Just for automatically testing purposes.   
+Trying: 'test
+Testing' [4]
+1234
+test
+Tes-
+ting
+Trying: 'test
+Testing' [5]
+12345
+test
+Test-
+ing
+Trying: 'test
+Testing' [50]
+12345678901234567890123456789012345678901234567890
+test
+Testing
+
 
 ```
